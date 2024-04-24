@@ -32,6 +32,23 @@ body {
   font-family: 'Minecraftia', sans-serif;
 }
 
+p {
+  @apply text-base;
+  color: #FADF75;
+}
+
+h1 {
+  @apply text-xl;
+}
+h3 {
+  font-size: 0.90rem;
+  color: #FADF75;
+}
+
+.subtitle_gray {
+  color: #FCEDB0;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

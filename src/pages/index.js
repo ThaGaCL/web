@@ -3,6 +3,12 @@ import { Inter } from "next/font/google";
 import NameAscii from "./components/NameAscii";
 import Separator from "./components/Separator";
 import NavBar from "./components/NavBar";
+import SobreMim from "./components/SobreMim";
+import Projetos from "./components/Projetos";
+import Ufpr from "./components/Ufpr";
+import Contato from "./components/Contato";
+import Formacao from "./components/Formacao";
+
 import { Box } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -32,6 +38,11 @@ export default function Home() {
         <Separator />
         <NavBar />
         <Separator />
+        <SobreMim />
+        <Formacao />
+        <Ufpr />
+        <Projetos />
+        <Contato />
     </main>
   );
 }

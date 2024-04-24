@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Link from 'next/link';
 
@@ -11,9 +10,9 @@ const NavBar = () => {
              className="flex flex-row justify-between underline underline-offset-2"
         >
             <Link href={'/'}>SOBRE MIM</Link>
-            <Link href={'/'}>PROJETOS</Link>
-            <Link href={'/'}>UFPR</Link>
-            <Link href={'/'}>CONTATO</Link>
+            <Link href={'#ufpr'}>UFPR</Link>
+            <Link href={'#projetos'}>PROJETOS</Link>
+            <Link href={'#contato'}>CONTATO</Link>
         </Box>
     );
 }
